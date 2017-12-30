@@ -36,6 +36,6 @@ Read the [Enhancing a Craft CMS 3 Website with a Custom Module](https://nystudio
 
 Some things to do, and ideas for potential features:
 
-* Whatever else @mikestecker asks for
+* Initial release
 
 Brought to you by [nystudio107](https://nystudio107.com/)

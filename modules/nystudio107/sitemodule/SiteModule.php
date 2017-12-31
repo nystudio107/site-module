@@ -22,7 +22,7 @@ use yii\base\Module;
  * @author    nystudio107
  * @package   SiteModule
  * @since     1.0.0
- * @inheritdoc.
+ * @inheritdoc
  */
 class SiteModule extends Module
 {
@@ -30,7 +30,7 @@ class SiteModule extends Module
     // =========================================================================
 
     /**
-     * @inheritdoc.
+     * @inheritdoc
      */
     public function init()
     {

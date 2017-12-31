@@ -16,7 +16,7 @@ use craft\web\assets\cp\CpAsset;
  * @author    nystudio107
  * @package   SiteModule
  * @since     1.0.0
- * @inheritdoc.
+ * @inheritdoc
  */
 class SiteModuleAsset extends AssetBundle
 {

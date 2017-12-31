@@ -54,7 +54,7 @@ class SiteModule extends Module
                     try {
                         $view->registerAssetBundle(SiteModuleAsset::class);
                     } catch (InvalidConfigException $e) {
-                        Craft::trace(
+                        Craft::error(
                             'Error registering AssetBundle - '.$e->getMessage(),
                             __METHOD__
                         );

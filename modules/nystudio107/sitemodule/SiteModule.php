@@ -37,9 +37,9 @@ class SiteModule extends Module
         Craft::setAlias('@site-module', $this->getBasePath());
         parent::init();
 
-        // Only respond to non-console AdminCP requests
+        // Only respond to AdminCP requests
         $request = Craft::$app->getRequest();
-        if ($request->getIsCpRequest() && !$request->getIsConsoleRequest()) {
+        if ($request->getIsCpRequest()) {
             // Handler: View::EVENT_BEFORE_RENDER_TEMPLATE
             Event::on(
                 View::class,

@@ -18,7 +18,7 @@ To install the plugin, follow these instructions.
 ```
   "autoload": {
     "psr-4": {
-      "modules\\site\\": "modules/site/src/"
+      "modules\\sitemodule\\": "modules/sitemodule/src/"
     }
   },
 ```
